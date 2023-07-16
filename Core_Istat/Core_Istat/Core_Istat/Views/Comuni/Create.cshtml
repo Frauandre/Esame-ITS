@@ -1,0 +1,80 @@
+﻿@model Core_Istat.Models.Comune
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Comune</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdProvincia" class="control-label"></label>
+                <select asp-for="IdProvincia" class ="form-control" asp-items="ViewBag.IdProvincia"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Denominazione" class="control-label"></label>
+                <input asp-for="Denominazione" class="form-control" />
+                <span asp-validation-for="Denominazione" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodiceCatastale" class="control-label"></label>
+                <input asp-for="CodiceCatastale" class="form-control" />
+                <span asp-validation-for="CodiceCatastale" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="ComuneCapoluogo" /> @Html.DisplayNameFor(model => model.ComuneCapoluogo)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="AltitudineCentro" class="control-label"></label>
+                <input asp-for="AltitudineCentro" class="form-control" />
+                <span asp-validation-for="AltitudineCentro" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="ZonaLitoranea" /> @Html.DisplayNameFor(model => model.ZonaLitoranea)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdZonaAltimetrica" class="control-label"></label>
+                <select asp-for="IdZonaAltimetrica" class ="form-control" asp-items="ViewBag.IdZonaAltimetrica"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdZonaMontana" class="control-label"></label>
+                <select asp-for="IdZonaMontana" class ="form-control" asp-items="ViewBag.IdZonaMontana"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Superficie" class="control-label"></label>
+                <input asp-for="Superficie" class="form-control" />
+                <span asp-validation-for="Superficie" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Popolazione2001" class="control-label"></label>
+                <input asp-for="Popolazione2001" class="form-control" />
+                <span asp-validation-for="Popolazione2001" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Popolazione2011" class="control-label"></label>
+                <input asp-for="Popolazione2011" class="form-control" />
+                <span asp-validation-for="Popolazione2011" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

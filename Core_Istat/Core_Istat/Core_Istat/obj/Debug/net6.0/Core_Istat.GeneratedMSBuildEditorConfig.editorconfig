@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Core_Istat
+build_property.RootNamespace = Core_Istat
+build_property.ProjectDir = C:\Users\frauc\Desktop\Core_Istat\Core_Istat\Core_Istat\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\frauc\Desktop\Core_Istat\Core_Istat\Core_Istat
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Comuni/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Comuni/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Comuni/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Comuni/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Comuni/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tdW5pXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Provincie/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmluY2llXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Provincie/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmluY2llXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Provincie/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmluY2llXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Provincie/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmluY2llXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Provincie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmluY2llXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Regioni/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Regioni/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uaVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Regioni/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uaVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Regioni/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Regioni/ElencoProvinciePerRegione.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uaVxFbGVuY29Qcm92aW5jaWVQZXJSZWdpb25lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Regioni/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/RipartizioniGeografiche/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmlwYXJ0aXppb25pR2VvZ3JhZmljaGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/RipartizioniGeografiche/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmlwYXJ0aXppb25pR2VvZ3JhZmljaGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/RipartizioniGeografiche/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmlwYXJ0aXppb25pR2VvZ3JhZmljaGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/RipartizioniGeografiche/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmlwYXJ0aXppb25pR2VvZ3JhZmljaGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/RipartizioniGeografiche/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmlwYXJ0aXppb25pR2VvZ3JhZmljaGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/frauc/Desktop/Core_Istat/Core_Istat/Core_Istat/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-dfq88iftzi

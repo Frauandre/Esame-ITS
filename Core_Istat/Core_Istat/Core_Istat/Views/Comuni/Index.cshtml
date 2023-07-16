@@ -1,0 +1,95 @@
+﻿@model IEnumerable<Core_Istat.Models.Comune>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Denominazione)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodiceCatastale)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ComuneCapoluogo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AltitudineCentro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ZonaLitoranea)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Superficie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Popolazione2001)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Popolazione2011)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdProvinciaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdZonaAltimetricaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdZonaMontanaNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Denominazione)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodiceCatastale)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ComuneCapoluogo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AltitudineCentro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ZonaLitoranea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Superficie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Popolazione2001)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Popolazione2011)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdProvinciaNavigation.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdZonaAltimetricaNavigation.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdZonaMontanaNavigation.Id)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

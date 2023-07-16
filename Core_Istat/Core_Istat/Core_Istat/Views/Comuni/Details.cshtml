@@ -1,0 +1,94 @@
+﻿@model Core_Istat.Models.Comune
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Comune</h4>
+    <hr />
+
+    <p>Popolazione media: @ViewBag.popolazioneMedia</p>
+
+
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Denominazione)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Denominazione)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CodiceCatastale)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CodiceCatastale)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ComuneCapoluogo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ComuneCapoluogo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AltitudineCentro)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AltitudineCentro)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ZonaLitoranea)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ZonaLitoranea)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Superficie)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Superficie)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Popolazione2001)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Popolazione2001)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Popolazione2011)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Popolazione2011)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdProvinciaNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdProvinciaNavigation.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdZonaAltimetricaNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdZonaAltimetricaNavigation.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdZonaMontanaNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdZonaMontanaNavigation.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PopolazioneMedia)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PopolazioneMedia)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
